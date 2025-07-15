@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>รัก🤍</title>
+    <meta charset="UTF-8" />
+    <style>
+      body {
+        margin: 0;
+        padding: 30px;
+        background-color: navy;
+        color: white;
+        font-family: 'Courier New', monospace;
+        text-align: center;
+      }
+      h1 {
+        font-size: 32px;
+        color: pink;
+        margin-bottom: 20px;
+      }
+      .message {
+        font-size: 18px;
+        max-width: 600px;
+        margin: 0 auto;
+        text-align: left;
+        min-height: 220px;
+      }
+      .fade-in {
+        opacity: 0;
+        animation: fadeIn 2s forwards;
+        animation-delay: 5s;
+        margin-top: 20px;
+        max-width: 90%;
+        border-radius: 12px;
+      }
+      @keyframes fadeIn {
+        to { opacity: 1; }
+      }
+      /* Typewriter effect */
+      .typewriter {
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+        border-right: 3px solid white;
+        animation: typing 5s steps(60), blink .75s step-end infinite;
+      }
+      @keyframes typing {
+        from { width: 0 }
+        to { width: 100% }
+      }
+      @keyframes blink {
+        from, to { border-color: transparent }
+        50% { border-color: white }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>ASHDNAA 🤍</h1>
+
+    <div class="message">
+      <span class="typewriter">
+        Happy Birthday Yayang 🤍 yang ke‑19 ✨
+        Dah besar yayang ni, tapi tu la... kesian sebab sakit hm 😢 Orang nak minta maaf salah silap...
+      </span>
+    </div>
+
+    <img class="fade-in" src="https://i.imgur.com/3CyFzHt.png" alt="yayang cute" />
+
+    <audio autoplay loop>
+      <source src="https://files.catbox.moe/ic5uv2.mp3" type="audio/mpeg" />
+      <!-- Untuk mobile, perlu tap sekali baru start -->
+    </audio>
+
+    <p style="margin-top: 40px;">From mirmir ✨</p>
+  </body>
+</html>
